@@ -41,9 +41,23 @@
 .slide .mix-accent{
 	animation: fancy-light .5s infinite;
 }
-#lambda code{
-	color: #3f51b5;
-	font-size: 150px;
+.slide .fit{
+	max-width: 80%;
+}
+.slide .note{
+	color: rgba(0, 0, 0, 0.5);
+}
+.slide a,
+.slide .shout a{
+	background: none;
+}
+.slide .shout a{
+	line-height: 1.5;
+	border-bottom: 0.1em solid;
+}
+.slide.irrelevant h2{
+	font-size: 65px;
+	text-align: center;
 }
 
 @keyframes fancy-light{
