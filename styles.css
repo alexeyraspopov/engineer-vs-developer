@@ -1,0 +1,59 @@
+.slide h2,
+.slide p,
+.slide li{
+	font-family: 'PT Serif', 'PT Sans';
+}
+.slide h2{
+	color: rgba(0, 0, 0, 0.87);
+}
+.slide strike{
+	opacity: 0.5;
+}
+.slide pre mark{
+	margin: 0;
+}
+.slide .shout{
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 1.2;
+	text-align: left;
+	padding: 0 100px;
+}
+.slide .shout.code{
+	text-align: center;
+}
+.slide .shout.code > code{
+	font-size: 68px;
+	background: none;
+}
+.slide::after{
+	top: 85%;
+	width: auto;
+	background: none;
+	color: rgba(0, 0, 0, 0.3);
+}
+.slide .primary-accent{
+	color: #3f51b5;
+}
+.slide .secondary-accent{
+	color: #ff4081;
+}
+.slide .mix-accent{
+	animation: fancy-light .5s infinite;
+}
+#lambda code{
+	color: #3f51b5;
+	font-size: 150px;
+}
+
+@keyframes fancy-light{
+	from{
+		color: #3f51b5;
+	}
+	50%{
+		color: #ff4081;
+	}
+	to{
+		color: #3f51b5;
+	}
+}

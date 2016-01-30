@@ -1,0 +1,8 @@
+{
+  "name": "engineer-vs-developer",
+  "license": "MIT",
+  "dependencies": {
+    "shower-core": "git://github.com/shower/core.git#dev",
+    "shower-ribbon": "git://github.com/shower/ribbon.git#next"
+  }
+}
